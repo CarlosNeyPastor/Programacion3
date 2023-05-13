@@ -16,5 +16,26 @@ namespace Calculadora
         {
             InitializeComponent();
         }
+
+        private void calculadoraToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //this.Hide();
+            Calculadora.FormCalculadora vCalculadora = new FormCalculadora(); //Calculadora genera conflicto por ser el nombre del proyecto
+            vCalculadora.Show();
+
+        }
+
+        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void loginToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //this.Hide();
+            Login vLogin = new Login();
+            vLogin.Show();
+
+        }
     }
 }

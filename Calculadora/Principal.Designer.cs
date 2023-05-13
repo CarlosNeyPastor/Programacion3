@@ -60,22 +60,23 @@
             // 
             clientesToolStripMenuItem.AccessibleName = "menuClientes";
             clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
-            clientesToolStripMenuItem.Size = new Size(139, 22);
+            clientesToolStripMenuItem.Size = new Size(180, 22);
             clientesToolStripMenuItem.Text = "Clientes";
             // 
             // proveedoresToolStripMenuItem
             // 
             proveedoresToolStripMenuItem.AccessibleName = "menuProveedores";
             proveedoresToolStripMenuItem.Name = "proveedoresToolStripMenuItem";
-            proveedoresToolStripMenuItem.Size = new Size(139, 22);
+            proveedoresToolStripMenuItem.Size = new Size(180, 22);
             proveedoresToolStripMenuItem.Text = "Proveedores";
             // 
             // calculadoraToolStripMenuItem
             // 
             calculadoraToolStripMenuItem.AccessibleName = "menuCalculadora";
             calculadoraToolStripMenuItem.Name = "calculadoraToolStripMenuItem";
-            calculadoraToolStripMenuItem.Size = new Size(139, 22);
+            calculadoraToolStripMenuItem.Size = new Size(180, 22);
             calculadoraToolStripMenuItem.Text = "Calculadora";
+            calculadoraToolStripMenuItem.Click += calculadoraToolStripMenuItem_Click;
             // 
             // ingresoToolStripMenuItem
             // 
@@ -91,6 +92,7 @@
             loginToolStripMenuItem.Name = "loginToolStripMenuItem";
             loginToolStripMenuItem.Size = new Size(180, 22);
             loginToolStripMenuItem.Text = "Login";
+            loginToolStripMenuItem.Click += loginToolStripMenuItem_Click;
             // 
             // salirToolStripMenuItem
             // 
@@ -98,6 +100,7 @@
             salirToolStripMenuItem.Name = "salirToolStripMenuItem";
             salirToolStripMenuItem.Size = new Size(180, 22);
             salirToolStripMenuItem.Text = "Salir";
+            salirToolStripMenuItem.Click += salirToolStripMenuItem_Click;
             // 
             // Principal
             // 

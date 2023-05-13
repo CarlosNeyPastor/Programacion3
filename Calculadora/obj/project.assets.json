@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\I.T.I\\Programacion 3\\Proyecto\\Calculadora\\Calculadora\\Calculadora.csproj",
-      "projectName": "Calculadora",
-      "projectPath": "D:\\I.T.I\\Programacion 3\\Proyecto\\Calculadora\\Calculadora\\Calculadora.csproj",
+      "projectUniqueName": "D:\\I.T.I\\Programacion 3\\Proyecto\\Calculadora\\Calculadora\\Proyecto.csproj",
+      "projectName": "Proyecto",
+      "projectPath": "D:\\I.T.I\\Programacion 3\\Proyecto\\Calculadora\\Calculadora\\Proyecto.csproj",
       "packagesPath": "C:\\Users\\Charlie\\.nuget\\packages\\",
       "outputPath": "D:\\I.T.I\\Programacion 3\\Proyecto\\Calculadora\\Calculadora\\obj\\",
       "projectStyle": "PackageReference",

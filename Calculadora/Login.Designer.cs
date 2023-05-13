@@ -34,12 +34,13 @@
             btnCancelar = new Button();
             txtUsuario = new TextBox();
             txtContrasenia = new TextBox();
+            lblBienvenido = new Label();
             SuspendLayout();
             // 
             // lblUsuario
             // 
             lblUsuario.AutoSize = true;
-            lblUsuario.Location = new Point(44, 68);
+            lblUsuario.Location = new Point(44, 70);
             lblUsuario.Name = "lblUsuario";
             lblUsuario.Size = new Size(50, 15);
             lblUsuario.TabIndex = 0;
@@ -49,7 +50,7 @@
             // lblContrasenia
             // 
             lblContrasenia.AutoSize = true;
-            lblContrasenia.Location = new Point(44, 114);
+            lblContrasenia.Location = new Point(44, 133);
             lblContrasenia.Name = "lblContrasenia";
             lblContrasenia.Size = new Size(70, 15);
             lblContrasenia.TabIndex = 1;
@@ -57,41 +58,57 @@
             // 
             // btnAceptar
             // 
-            btnAceptar.Location = new Point(83, 171);
+            btnAceptar.Location = new Point(44, 189);
             btnAceptar.Name = "btnAceptar";
             btnAceptar.Size = new Size(75, 23);
             btnAceptar.TabIndex = 2;
             btnAceptar.Text = "Aceptar";
             btnAceptar.UseVisualStyleBackColor = true;
+            btnAceptar.Click += btnAceptar_Click;
             // 
             // btnCancelar
             // 
-            btnCancelar.Location = new Point(212, 171);
+            btnCancelar.Location = new Point(136, 189);
             btnCancelar.Name = "btnCancelar";
             btnCancelar.Size = new Size(75, 23);
             btnCancelar.TabIndex = 3;
             btnCancelar.Text = "Cancelar";
             btnCancelar.UseVisualStyleBackColor = true;
+            btnCancelar.Click += btnCancelar_Click;
             // 
             // txtUsuario
             // 
-            txtUsuario.Location = new Point(126, 65);
+            txtUsuario.Location = new Point(44, 88);
             txtUsuario.Name = "txtUsuario";
-            txtUsuario.Size = new Size(161, 23);
+            txtUsuario.Size = new Size(167, 23);
             txtUsuario.TabIndex = 4;
+            txtUsuario.TextChanged += txtUsuario_TextChanged;
             // 
             // txtContrasenia
             // 
-            txtContrasenia.Location = new Point(120, 111);
+            txtContrasenia.Location = new Point(44, 151);
             txtContrasenia.Name = "txtContrasenia";
+            txtContrasenia.PasswordChar = '*';
             txtContrasenia.Size = new Size(167, 23);
             txtContrasenia.TabIndex = 5;
+            txtContrasenia.TextChanged += txtContrasenia_TextChanged;
+            // 
+            // lblBienvenido
+            // 
+            lblBienvenido.AutoSize = true;
+            lblBienvenido.Font = new Font("Segoe UI", 21.75F, FontStyle.Bold, GraphicsUnit.Point);
+            lblBienvenido.Location = new Point(39, 19);
+            lblBienvenido.Name = "lblBienvenido";
+            lblBienvenido.Size = new Size(172, 40);
+            lblBienvenido.TabIndex = 6;
+            lblBienvenido.Text = "Bienvenido";
             // 
             // Login
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(374, 231);
+            ClientSize = new Size(260, 230);
+            Controls.Add(lblBienvenido);
             Controls.Add(txtContrasenia);
             Controls.Add(txtUsuario);
             Controls.Add(btnCancelar);
@@ -112,5 +129,6 @@
         private Button btnCancelar;
         private TextBox txtUsuario;
         private TextBox txtContrasenia;
+        private Label lblBienvenido;
     }
 }
