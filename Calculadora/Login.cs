@@ -24,7 +24,7 @@ namespace Calculadora
 
         private void btnCancelar_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Close();   
         }
 
         private void txtContrasenia_TextChanged(object sender, EventArgs e)

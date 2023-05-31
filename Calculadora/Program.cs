@@ -11,7 +11,7 @@ namespace Calculadora
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            //Application.Run(new FormCalculadora());
+            //Application.Run(new FormCalculadora()); // Configuración inicial
             Application.Run(new Principal());
         }
     }
